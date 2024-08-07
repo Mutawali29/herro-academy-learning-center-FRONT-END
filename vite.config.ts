@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: "/herro-academy-learning-center-FRONT-END/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
